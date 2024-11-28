@@ -1,0 +1,52 @@
+# General
+.DS_Store
+prefs.txt
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.cache
+*.pytest_cache/
+*.env
+*.venv/
+__pycache__/
+*.log
+
+# PlatformIO
+.pio/
+.clang_complete
+compile_commands.json
+
+# VSCode
+.vscode/*.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+.vscode/*.code-workspace
+.vscode/settings.json
+
+# Byte-compiled, coverage, and other auxiliary Python files
+*.coverage
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+*.so
+*.dll
+*.swp
+
+# Generated files or directories
+dist/
+build/
+*.bak
+*.tmp
+
+# Convert.py scripts in any directory
+**/convert.py
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+*.lock
+*.bak~
